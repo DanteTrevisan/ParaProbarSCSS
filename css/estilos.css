@@ -202,13 +202,6 @@
   padding-bottom: 140px;
 }
 
-@media (max-width: 900px) {
-  .imagen2-seccion {
-    background-image: url("../imagenes/instalaciones_011.jpg");
-    /* The image used */
-    height: 400px;
-  }
-}
 /* ############################################################ CONTACTO ############################################################################# */
 .contacto-seccion {
   min-height: 850px;
@@ -272,6 +265,14 @@ a:link, a:visited, a:active {
   text-decoration: none;
 }
 
+/* ############################################################ SECCION 2 ############################################################################# */
+@media (max-width: 900px) {
+  .imagen2-seccion {
+    background-image: url("../imagenes/instalaciones_011.jpg");
+    /* The image used */
+    height: 400px;
+  }
+}
 /* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
 .cuerpo {
   background-color: #000000;
