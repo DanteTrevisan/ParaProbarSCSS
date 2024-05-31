@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "header.scss";
+@import "boton-flotante.scss";
+@import "fitness.scss";
+@import "video-promo.scss";
+@import "clases-animacion.scss";
+@import "galeria.scss";
+@import "seccion2.scss";
+@import "contacto.scss";
+@import "footer.scss";
+  
+  
+  
+  
+  
+  
+  /* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
+  
+  .cuerpo {
+    background-color: #000000;
+  }
+  
+  /* ############################################################ BENEFICIOS ############################################################################# */
+  
+  .titulo-beneficios {
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-beneficios {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+  
+  .titulo-b {
+    font-size: 45px;
+    color: #DAFF42;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-b {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  .titulo-b2 {
+    font-size: 45px;
+    color: #DAFF42;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-b2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  .beneficios {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #FFF;
+    font-size: 15px;
+    color: #FFF;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    .beneficios {
+      font-size: 12px;
+      line-height: 23px;
+    }
+  }
+  
+  /* ############################################################ CONTACTO ############################################################################# */
+  
+  .titulo-sec2 {
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-sec2 {
+      font-size: 35px;
+      line-height: 35px;
+    }
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #242424;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  
+  .btn-principal {
+    color: #FFF;
+    background: #2E9999;
+    border-color: #2E9999;
+    width: 100%;
+    border-radius: 0px;
+  
+    &:visited, &:active {
+      color: #FFF;
+      background: #2E9999;
+      border-color: #2E9999;
+      width: 100%;
+      border-radius: 0px;
+    }
+  
+    &:focus {
+      color: #FFF;
+      background-color: #2E9999;
+      border-color: #2E9999;
+    }
+  
+    &:hover {
+      color: #FFF;
+      background-color: #666;
+      border-color: #666;
+    }
+  }
+  
+  /* ############################################################ CONVENIOS ############################################################################# */
+  
+  .titulo-b2 {
+    font-size: 45px;
+    color: #DAFF42;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-b2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  .titulo-f2 {
+    font-size: 13px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+  }
+  
+  /* ############################################################ HORARIOS ############################################################################# */
+  
+  .socio-section {
+    /*min-height:1000px;*/
+    padding-top: 100px;
+    text-align: center;
+    background: #000000;
+  }
+  
+  /* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
+  
+  .titulo-sec2 {
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+  }
+  
+  @media (max-width: 600px) {
+    .titulo-sec2 {
+      font-size: 35px;
+      line-height: 35px;
+    }
+  }
+  
+  .titulo-pf {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    background: #000000;
+    border-bottom: 1px solid #FFF;
+  
+    > a {
+      font-size: 15px;
+      color: #FFF;
+      text-align: center;
+      font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 15px;
+      padding-bottom: 18px;
+      padding-top: 10px;
+      background: #000000;
+      border-bottom: 1px solid #FFF;
+    }
+  }
+  
+  /* ############################################################ PREINSCRIPCION ############################################################################# */
+  
+  .titulo2 {
+    font-size: 15px;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+  }
+  
+  .parrafo {
+    font-size: 14px;
+    text-align: justify;
+    color: #666;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  input::placeholder {
+    opacity: 0.5;
+    color: white;
+  }
