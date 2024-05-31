@@ -1,3 +1,24 @@
+
+$fuente:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$texto_align: center;
+$texto_transform: uppercase;
+
+@mixin template_beneficios($font_size, $color, $text_align : $texto_align, $font_family : $fuente, $font_weight, $text_transform: $texto_transform ){
+  .clase_pagina{
+    font-size: $font_size;
+    color: $color;
+    text-align: $text_align;
+    font-family: $font_family;
+    font-weight: $font_weight;
+    text-transform: $text_transform;
+    line-height: $line_height;
+  }
+}
+
+
+
+
+
 /* ############################################################ BENEFICIOS ############################################################################# */
   
 .titulo-beneficios {
@@ -34,15 +55,15 @@
   }
   
   .beneficios {
-    width: 100%;
-    text-align: center;
-    border-bottom: 3px solid #FFF;
     font-size: 15px;
     color: #FFF;
+    text-align: center;
     font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 35px;
     margin-bottom: 15px;
+    width: 100%;
+    border-bottom: 3px solid #FFF;
   }
