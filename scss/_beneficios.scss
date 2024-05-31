@@ -1,18 +1,34 @@
 
-$fuente:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-$texto_align: center;
-$texto_transform: uppercase;
+$font_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$text_align: center;
+$text_transform: uppercase;
 
-@mixin template_beneficios($font_size, $color, $text_align : $texto_align, $font_family : $fuente, $font_weight, $text_transform: $texto_transform ){
-  .clase_pagina{
-    font-size: $font_size;
-    color: $color;
-    text-align: $text_align;
-    font-family: $font_family;
-    font-weight: $font_weight;
-    text-transform: $text_transform;
-    line-height: $line_height;
-  }
+
+
+@mixin template_beneficios($font-size, $color, $text-align:$text_align, $font-family: $font_family, $font-weight, $text-transform:$text_transform, $line-height, $hayExtras:0, $clase){
+  @if $hayExtras == 0{
+    .clase{
+      font-size: $font-size;
+      color: $color;
+      text-align: $text-align;
+      font-family: $font-family;
+      font-weight: $font-weight;
+      text-transform: $text-transform;
+      line-height: $line-height;
+    }
+  } @else {
+            font-size: $font-size;
+            color: $color;
+            text-align: $text-align;
+            font-family: $font-family;
+            font-weight: $font-weight;
+            text-transform: $text-transform;
+            line-height: $line-height;
+            margin-bottom: 15px;
+            width: 100%;
+            border-bottom: 3px solid #FFF;
+          }
+  
 }
 
 
@@ -21,7 +37,7 @@ $texto_transform: uppercase;
 
 /* ############################################################ BENEFICIOS ############################################################################# */
   
-.titulo-beneficios {
+/*.titulo-beneficios {
     font-size: 55px;
     color: #FFF;
     text-align: center;
@@ -30,7 +46,9 @@ $texto_transform: uppercase;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 55px;
-  }
+  }*/
+
+@include template_beneficios(55px,#FFF,900,55px,"titulo-beneficios");
   
   .titulo-b {
     font-size: 45px;
