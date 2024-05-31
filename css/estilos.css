@@ -202,7 +202,7 @@
   padding-bottom: 140px;
 }
 
-/* ############################################################ CONTACTO ############################################################################# */
+/* ############################################################ CONTACTO MAIN ############################################################################# */
 .contacto-seccion {
   min-height: 850px;
   padding-top: 140px;
@@ -273,11 +273,52 @@ a:link, a:visited, a:active {
     height: 400px;
   }
 }
-/* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
-.cuerpo {
-  background-color: #000000;
+/* ############################################################ BENEFICIOS ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-beneficios {
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
-
+@media (max-width: 600px) {
+  .titulo-b {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .titulo-b2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .beneficios {
+    font-size: 12px;
+    line-height: 23px;
+  }
+}
+/* ############################################################ CONTACTO ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-sec2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+/* ############################################################ CONVENIOS ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-b2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+/* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-sec2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
 /* ############################################################ BENEFICIOS ############################################################################# */
 .titulo-beneficios {
   font-size: 55px;
@@ -290,12 +331,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-beneficios {
-    font-size: 40px;
-    line-height: 50px;
-  }
-}
 .titulo-b {
   font-size: 45px;
   color: #DAFF42;
@@ -307,12 +342,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-b {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
 .titulo-b2 {
   font-size: 45px;
   color: #DAFF42;
@@ -324,12 +353,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-b2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
 .beneficios {
   width: 100%;
   text-align: center;
@@ -344,12 +367,6 @@ a:link, a:visited, a:active {
   margin-bottom: 15px;
 }
 
-@media (max-width: 600px) {
-  .beneficios {
-    font-size: 12px;
-    line-height: 23px;
-  }
-}
 /* ############################################################ CONTACTO ############################################################################# */
 .titulo-sec2 {
   font-size: 55px;
@@ -362,12 +379,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-sec2 {
-    font-size: 35px;
-    line-height: 35px;
-  }
-}
 .form-control {
   display: block;
   width: 100%;
@@ -419,12 +430,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-b2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
 .titulo-f2 {
   font-size: 13px;
   color: #FFF;
@@ -457,12 +462,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-@media (max-width: 600px) {
-  .titulo-sec2 {
-    font-size: 35px;
-    line-height: 35px;
-  }
-}
 .titulo-pf {
   font-size: 15px;
   color: #FFF;
@@ -516,6 +515,11 @@ a:link, a:visited, a:active {
 input::placeholder {
   opacity: 0.5;
   color: white;
+}
+
+/* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
+.cuerpo {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=estilos.css.map */
