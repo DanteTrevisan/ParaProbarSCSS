@@ -1,7 +1,7 @@
 /*############################ MIXIN PRINCIPAL ##################################*/
 @mixin medias-query($max_width, $font_size, $line_height, $clase){
   @media(max-width: $max_width){
-    .clase{
+    #{$clase}{
       font-size: $font_size;
       line-height: $line_height;
     }
