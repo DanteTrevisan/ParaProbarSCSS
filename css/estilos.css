@@ -99,6 +99,55 @@
   border-radius: 0px;
 }
 
+/* ############################################################ BENEFICIOS ############################################################################# */
+.titulo-beneficios {
+  font-size: 55px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+.titulo-b {
+  font-size: 45px;
+  color: #DAFF42;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+.beneficios {
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 35px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-bottom: 3px solid #FFF;
+}
+
+/*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
+.titulo-b2 {
+  font-size: 45px;
+  color: #DAFF42;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
 /*================================================ FITNESS ===============================================================*/
 .fitness-section {
   min-height: 600px;
@@ -107,24 +156,26 @@
   background: #000000;
 }
 
+.parrafo2 {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
 .titulo-n {
   font-size: 55px;
-  color: #FFF;
+  color: #fff;
   text-align: left;
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 55px;
-}
-
-.parrafo2 {
-  font-size: 14px;
-  text-align: justify;
-  color: #fff;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 300;
 }
 
 /* ======================================== VIDEO PROMO ==================================== */
@@ -191,17 +242,6 @@
   background: #000000;
 }
 
-.titulo-sec2 {
-  font-size: 55px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
 /* ############################################################ SECCION 2 ############################################################################# */
 .imagen2-seccion {
   background-image: url("../imagenes/instalaciones_01.jpg");
@@ -247,7 +287,7 @@
   background: #000000;
 }
 
-.titulo-f {
+.titulo-f, .titulo-f > a {
   font-size: 15px;
   color: #FFF;
   text-align: center;
@@ -259,19 +299,6 @@
   padding-bottom: 18px;
   padding-top: 10px;
 }
-.titulo-f > a {
-  font-size: 15px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 15px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-}
-
 a:link, a:visited, a:active {
   text-decoration: none;
 }
@@ -341,17 +368,6 @@ a:link, a:visited, a:active {
   line-height: 55px;
 }
 
-.titulo-b2 {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
 .beneficios {
   font-size: 15px;
   color: #FFF;
@@ -366,18 +382,19 @@ a:link, a:visited, a:active {
   border-bottom: 3px solid #FFF;
 }
 
-/* ############################################################ CONTACTO ############################################################################# */
-.titulo-sec2 {
-  font-size: 55px;
-  color: #FFF;
+/*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
+.titulo-b2 {
+  font-size: 45px;
+  color: #DAFF42;
   text-align: center;
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
+  font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 55px;
 }
 
+/* ############################################################ CONTACTO ############################################################################# */
 .form-control {
   display: block;
   width: 100%;
@@ -418,17 +435,6 @@ a:link, a:visited, a:active {
 }
 
 /* ############################################################ CONVENIOS ############################################################################# */
-.titulo-b2 {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
 .titulo-f2 {
   font-size: 13px;
   color: #FFF;
@@ -450,18 +456,7 @@ a:link, a:visited, a:active {
 }
 
 /* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
-.titulo-sec2 {
-  font-size: 55px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
-.titulo-pf {
+.titulo-pf, .titulo-pf > a {
   font-size: 15px;
   color: #FFF;
   text-align: center;
@@ -475,21 +470,6 @@ a:link, a:visited, a:active {
   background: #000000;
   border-bottom: 1px solid #FFF;
 }
-.titulo-pf > a {
-  font-size: 15px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 15px;
-  padding-bottom: 18px;
-  padding-top: 10px;
-  background: #000000;
-  border-bottom: 1px solid #FFF;
-}
-
 /* ############################################################ PREINSCRIPCION ############################################################################# */
 .titulo2 {
   font-size: 15px;
@@ -519,6 +499,18 @@ input::placeholder {
 /* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
 .cuerpo {
   background-color: #000000;
+}
+
+/* ############################################################ CONTACTO, PREGUNTAS FRECUENTES, GALERIA ############################################################################# */
+.titulo-sec2 {
+  font-size: 55px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

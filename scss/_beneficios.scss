@@ -1,8 +1,4 @@
-
 $fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-
 
 @mixin template_beneficios($font_size, $color, $texto_align, $font_family : $fuente_family, $font_estilo, $fuente_weight, $texto_transform, $linea_height, $hayExtras, $clase){
   @if $hayExtras{
@@ -40,6 +36,9 @@ $fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
 
   @include template_beneficios(45px, #DAFF42, center, $fuente_family, normal, 900, uppercase, 55px, true, ".titulo-b");
 
-  @include template_beneficios(45px, #DAFF42, center, $fuente_family, italic, 900, uppercase, 55px, true, ".titulo-b2");
-
   @include template_beneficios(15px, #FFF, center, $fuente_family, italic, bold, uppercase, 35px, false, ".beneficios");
+
+  /*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
+
+  @include template_beneficios(45px, #DAFF42, center, $fuente_family, italic, 900, uppercase, 55px, true, ".titulo-b2"); 
+
