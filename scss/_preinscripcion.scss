@@ -1,15 +1,11 @@
+@import "_beneficios.scss";
+$fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 /* ############################################################ PREINSCRIPCION ############################################################################# */
   
-.titulo2 {
-    font-size: 15px;
-    color: #FFF;
-    text-align: left;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-  }
+
+  @include template_beneficios(15px, #fff, left, $fuente_family, normal,900, uppercase, 15px, true, ".titulo2");
+
   
   .parrafo {
     font-size: 14px;
