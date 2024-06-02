@@ -1,34 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-@import "header.scss";
-@import "boton-flotante.scss";
-@import "fitness.scss";
-@import "video-promo.scss";
-@import "clases-animacion.scss";
-@import "galeria.scss";
-@import "seccion2.scss";
-@import "contacto-main.scss";
-@import "footer.scss";
-@import "media-queries.scss";
-@import "beneficios.scss";
-@import "contacto.scss";
-@import "convenios.scss";
-@import "horarios.scss";
-@import "preguntas-frecuentes.scss";
-@import "preinscripcion.scss";
+@import "layout/header.scss";
+@import "components/boton-flotante.scss";
+@import "secciones-main/fitness.scss";
+@import "secciones-main/video-promo.scss";
+@import "secciones-main/clases-animacion.scss";
+@import "secciones-main/galeria.scss";
+@import "secciones-main/seccion2.scss";
+@import "secciones-main/contacto-main.scss";
+@import "layout/footer.scss";
+@import "media-queries/media-queries.scss";
+@import "sub-paginas/beneficios.scss";
+@import "sub-paginas/contacto.scss";
+@import "sub-paginas/convenios.scss";
+@import "sub-paginas/horarios.scss";
+@import "sub-paginas/preguntas-frecuentes.scss";
+@import "sub-paginas/preinscripcion.scss";
+@import "mixins/mixins.scss";
+@import "base/reset.scss";
 
 
 
 
   /* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
   
-  .cuerpo {
-    background-color: #000000;
-  }
-
+  
 
   /* ############################################################ CONTACTO, PREGUNTAS FRECUENTES, GALERIA ############################################################################# */
 

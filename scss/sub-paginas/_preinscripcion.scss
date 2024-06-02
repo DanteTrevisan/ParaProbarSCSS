@@ -1,10 +1,10 @@
-@import "_beneficios.scss";
+@import "../mixins/_mixins.scss";
 $fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 /* ############################################################ PREINSCRIPCION ############################################################################# */
   
 
-  @include template_beneficios(15px, #fff, left, $fuente_family, normal,900, uppercase, 15px, true, ".titulo2");
+  @include template_titulos_parrafos(15px, #fff, left, $fuente_family, normal,900, uppercase, 15px, true, ".titulo2");
 
   
   .parrafo {

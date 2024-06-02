@@ -1,4 +1,4 @@
-@import "_beneficios.scss";
+@import "../mixins/_mixins.scss";
 $fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 /*================================================ FITNESS ===============================================================*/
@@ -10,9 +10,9 @@ $fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida
     background: #000000;
   }
 
-  @include template_beneficios(14px, #fff, justify, $fuente_family, normal,300, capitalize, 25px, true, ".parrafo2");
+  @include template_titulos_parrafos(14px, #fff, justify, $fuente_family, normal,300, capitalize, 25px, true, ".parrafo2");
 
-  @include template_beneficios(55px, #fff, left, $fuente_family, normal,900, uppercase, 55px, true, ".titulo-n");
+  @include template_titulos_parrafos(55px, #fff, left, $fuente_family, normal,900, uppercase, 55px, true, ".titulo-n");
 
   
   

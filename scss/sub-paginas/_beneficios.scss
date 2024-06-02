@@ -1,0 +1,16 @@
+$fuente_family:'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import '../mixins/_mixins.scss';
+
+
+/* ############################################################ BENEFICIOS ############################################################################# */
+  
+  @include template_titulos_parrafos(55px, #FFF, center, $fuente_family, italic, 900, uppercase, 55px, true, ".titulo-beneficios");
+
+  @include template_titulos_parrafos(45px, #DAFF42, center, $fuente_family, normal, 900, uppercase, 55px, true, ".titulo-b");
+
+  @include template_titulos_parrafos(15px, #FFF, center, $fuente_family, italic, bold, uppercase, 35px, false, ".beneficios");
+
+  /*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
+
+  @include template_titulos_parrafos(45px, #DAFF42, center, $fuente_family, italic, 900, uppercase, 55px, true, ".titulo-b2"); 
+

@@ -1,0 +1,72 @@
+@mixin template_titulos_parrafos($font_size, $color, $texto_align, $font_family, $font_estilo, $fuente_weight, $texto_transform, $linea_height, $hayExtras, $clase){
+    @if $hayExtras{
+      #{$clase}{
+        font-size: $font_size;
+        color: $color;
+        text-align: $texto_align;
+        font-family: $font_family;
+        font-style: $font_estilo;
+        font-weight: $fuente_weight;
+        text-transform: $texto_transform;
+        line-height: $linea_height;
+      }
+    } @else {
+      #{$clase}{
+              font-size: $font_size;
+              color: $color;
+              text-align: $texto_align;
+              font-family: $font_family;
+              font-style: $font_estilo;
+              font-weight: $fuente_weight;
+              text-transform: $texto_transform;
+              line-height: $linea_height;
+              margin-bottom: 15px;
+              width: 100%;
+              border-bottom: 3px solid #FFF;
+            }
+          }
+    
+  }
+
+
+  @mixin toTop_toTopcel($position, $bottom, $right, $cursor, $display, $z_index, $id, $hayExtras){
+    @if $hayExtras{
+        #{$id}{    
+            position: $position;
+            bottom: $bottom;
+            right: $right;
+            cursor: $cursor;
+            display: $display;
+            z-index: $z_index;
+        }
+    } @else{
+        #{$id}{    
+            position: $position;
+            bottom: $bottom;
+            right: $right;
+            cursor: $cursor;
+            display: $display;
+            z-index: $z_index;
+            width: 100%
+        }
+    }
+}
+
+
+@mixin btn_principal($color, $background_color, $border_color, $clase, $pseudo:null, $hayExtras){
+    @if $hayExtras{
+        #{$clase}:#{$pseudo}{
+            color:$color;
+            background-color: $background_color;
+            border-color: $border_color;
+            width: 100%;
+            border-radius: 0px;
+        }
+    } @else{
+        #{$clase}:#{$pseudo}{
+            color:$color;
+            background-color: $background_color;
+            border-color: $border_color;
+        }
+    }   
+}

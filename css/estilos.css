@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /*================================================== NAVBAR=============================================*/
 .m-gris {
   background: #8C8C8C;
@@ -97,55 +92,6 @@
   border-color: #2E9999;
   width: 100%;
   border-radius: 0px;
-}
-
-/* ############################################################ BENEFICIOS ############################################################################# */
-.titulo-beneficios {
-  font-size: 55px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
-.titulo-b {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
-.beneficios {
-  font-size: 15px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 35px;
-  margin-bottom: 15px;
-  width: 100%;
-  border-bottom: 3px solid #FFF;
-}
-
-/*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
-.titulo-b2 {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
 }
 
 /*================================================ FITNESS ===============================================================*/
@@ -312,7 +258,7 @@ a:link, a:visited, a:active {
     height: 400px;
   }
 }
-/* ############################################################ BENEFICIOS ############################################################################# */
+/* ############################################################ MEDIA QUERIES BENEFICIOS ############################################################################# */
 @media (max-width: 600) {
   .titulo-beneficios {
     font-size: 40;
@@ -338,7 +284,7 @@ a:link, a:visited, a:active {
     line-height: 23;
   }
 }
-/* ############################################################ CONTACTO Y PREGUNTAS FRECUENTES ############################################################################# */
+/* ############################################################ MEDIA QUERIES CONTACTO Y PREGUNTAS FRECUENTES ############################################################################# */
 @media (max-width: 600) {
   .titulo-sec2 {
     font-size: 35;
@@ -470,8 +416,6 @@ a:link, a:visited, a:active {
   background: #000000;
   border-bottom: 1px solid #FFF;
 }
-
-
 /* ############################################################ PREINSCRIPCION ############################################################################# */
 .titulo2 {
   font-size: 15px;
@@ -498,11 +442,16 @@ input::placeholder {
   color: white;
 }
 
-/* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .cuerpo {
   background-color: #000000;
 }
 
+/* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
 /* ############################################################ CONTACTO, PREGUNTAS FRECUENTES, GALERIA ############################################################################# */
 .titulo-sec2 {
   font-size: 55px;
