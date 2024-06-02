@@ -355,31 +355,6 @@ a:link, a:visited, a:active {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-.btn-principal {
-  color: #FFF;
-  background: #2E9999;
-  border-color: #2E9999;
-  width: 100%;
-  border-radius: 0px;
-}
-.btn-principal:visited, .btn-principal:active {
-  color: #FFF;
-  background: #2E9999;
-  border-color: #2E9999;
-  width: 100%;
-  border-radius: 0px;
-}
-.btn-principal:focus {
-  color: #FFF;
-  background-color: #2E9999;
-  border-color: #2E9999;
-}
-.btn-principal:hover {
-  color: #FFF;
-  background-color: #666;
-  border-color: #666;
-}
-
 /* ############################################################ CONVENIOS ############################################################################# */
 .titulo-f2 {
   font-size: 13px;
