@@ -1,4 +1,4 @@
-/*############################ MIXIN PRINCIPAL ##################################*/
+/*############################ MIXIN PRINCIPAL MEDIA QUERIES ##################################*/
 @mixin medias-query($max_width, $font_size, $line_height, $clase){
   @media(max-width: $max_width){
     #{$clase}{

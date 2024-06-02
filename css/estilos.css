@@ -303,7 +303,7 @@ a:link, a:visited, a:active {
   text-decoration: none;
 }
 
-/*############################ MIXIN PRINCIPAL ##################################*/
+/*############################ MIXIN PRINCIPAL MEDIA QUERIES ##################################*/
 /* ############################################################ SECCION 2 ############################################################################# */
 @media (max-width: 900px) {
   .imagen2-seccion {
@@ -470,54 +470,7 @@ a:link, a:visited, a:active {
   background: #000000;
   border-bottom: 1px solid #FFF;
 }
-/* ############################################################ BENEFICIOS ############################################################################# */
-.titulo-beneficios {
-  font-size: 55px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
 
-.titulo-b {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
-
-.beneficios {
-  font-size: 15px;
-  color: #FFF;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 35px;
-  margin-bottom: 15px;
-  width: 100%;
-  border-bottom: 3px solid #FFF;
-}
-
-/*=================================================BENEFICIOS Y CONVENIOS ==========================================================*/
-.titulo-b2 {
-  font-size: 45px;
-  color: #DAFF42;
-  text-align: center;
-  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  line-height: 55px;
-}
 
 /* ############################################################ PREINSCRIPCION ############################################################################# */
 .titulo2 {
